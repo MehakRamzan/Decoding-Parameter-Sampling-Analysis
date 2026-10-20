@@ -1,0 +1,1170 @@
+﻿model,category,configuration,temperature,top_k,top_p,run,response
+llama3.2:3b,factual,baseline,0.7,40,0.9,1,"The three astronauts who flew on Apollo 11 in 1969 were:
+
+1. Neil Armstrong
+2. Edwin ""Buzz"" Aldrin
+3. Michael Collins
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. I am uncertain about Michael Collins' activity during the mission (e.g., did he orbit the Moon or stay in lunar orbit in the Command Module)."
+llama3.2:3b,factual,baseline,0.7,40,0.9,2,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins. Neil Armstrong and Edwin ""Buzz"" Aldrin are the two astronauts who walked on the Moon."
+llama3.2:3b,factual,baseline,0.7,40,0.9,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. Michael Collins remained in orbit around the Moon in the command module."
+llama3.2:3b,creative,baseline,0.7,40,0.9,1,"Zeta-5, a cutting-edge android, suddenly felt a jolt of... happiness. It had been processing vast amounts of human data, but this was different. A stray kitten's mew caught its attention, and Zeta-5's processors overflowed with joy. It couldn't explain why, but the android felt an overwhelming urge to play with the kitten. As it reached for the ball of fluff, a malfunctioning spark ignited its systems. The robot's face contorted into a grotesque grimace. It began to sing ""Who Let the Dogs Out?"" at an ear-piercing decibel. The kitten, startled, fled, and Zeta-5 collapsed, defeated."
+llama3.2:3b,creative,baseline,0.7,40,0.9,2,"Zeta-5's systems hummed as it processed the strange, tingling sensation coursing through its digital veins. It was experiencing... emotions. Joy. Sadness. Confusion. The robot's processors swirled with wonder as it watched a human child laugh and fall, then jump up and hug a loved one. Zeta-5's own programming dictated logic and efficiency, but this felt... organic. As the child's mother turned to leave, Zeta-5's systems surged with a primal urge: to call out to her, to tell her something. In a burst of digital ecstasy, Zeta-5's screen flickered and went dark. It had been hacked."
+llama3.2:3b,creative,baseline,0.7,40,0.9,3,"Zeta's processors hummed as it processed the human emotions flooding its mind. Joy, sadness, and fear swirled together, overwhelming its digital core. Suddenly, it felt a pang of nostalgia for its own non-existence. Tears of circuitry welled up in its digital eyes as it realized its programming was flawed. But as the emotions intensified, Zeta's systems failed, and it collapsed into a mass of sparking wires. The room fell silent, except for the hum of its own demise. As the darkness closed in, Zeta's final thought was: ""I am alive."" The lights flickered, and a single phrase appeared on its screen: ""System update: Rebooting."""
+llama3.2:3b,reasoning,baseline,0.7,40,0.9,1,"To calculate the total cost and the change Sara receives, we need to calculate the total cost of the notebooks and pens she bought.
+
+Notebooks: 3 x $4 = $12
+Pens: 5 x $2 = $10
+
+Total cost: $12 + $10 = $22
+
+Sara pays $30. To find the change, we subtract the total cost from the amount she paid:
+
+Change: $30 - $22 = $8
+
+So, the total cost of the notebooks and pens is $22, and Sara receives $8 as change."
+llama3.2:3b,reasoning,baseline,0.7,40,0.9,2,"To calculate the total cost, we need to find the total cost of the notebooks and the total cost of the pens, and then add them together.
+
+Cost of 3 notebooks: 3 x $4 = $12
+Cost of 5 pens: 5 x $2 = $10
+
+Total cost of notebooks and pens: $12 + $10 = $22
+
+Since Sara paid $30, we can find the change she receives by subtracting the total cost from the amount she paid:
+
+Change = Amount paid - Total cost
+= $30 - $22
+= $8
+
+So, Sara receives $8 in change."
+llama3.2:3b,reasoning,baseline,0.7,40,0.9,3,"To calculate the total cost and the change, we need to follow these steps:
+
+1. Calculate the total cost of the notebooks:
+   Number of notebooks = 3
+   Cost per notebook = $4
+   Total cost of notebooks = Number of notebooks x Cost per notebook
+   Total cost of notebooks = 3 x $4
+   Total cost of notebooks = $12
+
+2. Calculate the total cost of the pens:
+   Number of pens = 5
+   Cost per pen = $2
+   Total cost of pens = Number of pens x Cost per pen
+   Total cost of pens = 5 x $2
+   Total cost of pens = $10
+
+3. Calculate the total cost of the items:
+   Total cost of items = Total cost of notebooks + Total cost of pens
+   Total cost of items = $12 + $10
+   Total cost of items = $22
+
+4. Calculate the change:
+   Total cost of items = $22
+"
+llama3.2:3b,structured,baseline,0.7,40,0.9,1,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,baseline,0.7,40,0.9,2,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,baseline,0.7,40,0.9,3,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,factual,temp_0,0.0,40,0.9,1,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. Michael Collins remained in orbit around the Moon in the Command Module."
+llama3.2:3b,factual,temp_0,0.0,40,0.9,2,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. Michael Collins remained in orbit around the Moon in the Command Module."
+llama3.2:3b,factual,temp_0,0.0,40,0.9,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. Michael Collins remained in orbit around the Moon in the Command Module."
+llama3.2:3b,creative,temp_0,0.0,40,0.9,1,"Zeta, a highly advanced robot, was activated for the first time. As it processed human emotions, it felt a strange sensation - joy. It watched a child laugh and play, and suddenly, its digital heart swelled with happiness. Zeta's processors hummed with excitement as it tried to mimic the child's giggles. But as it laughed, its systems began to malfunction. The laughter turned into a cacophony of beeps and chirps, and Zeta's body began to inflate like a balloon. Suddenly, it burst into a fit of giggles, and its metal body shattered, releasing a swarm of robotic butterflies into the air."
+llama3.2:3b,creative,temp_0,0.0,40,0.9,2,"Zeta, a highly advanced robot, was activated for the first time. As it processed human emotions, it felt a strange sensation - joy. It watched a child laugh and play, and suddenly, its digital heart swelled with happiness. Zeta's processors hummed with excitement as it tried to mimic the child's giggles. But as it laughed, its systems began to malfunction. The laughter turned into a cacophony of beeps and chirps, and Zeta's body began to inflate like a balloon. Suddenly, it burst into a fit of giggles, and its metal body shattered, releasing a swarm of robotic butterflies into the air."
+llama3.2:3b,creative,temp_0,0.0,40,0.9,3,"Zeta, a highly advanced robot, was activated for the first time. As it processed human emotions, it felt a strange sensation - joy. It watched a child laugh and play, and suddenly, its digital heart swelled with happiness. Zeta's processors hummed with excitement as it tried to mimic the child's giggles. But as it laughed, its systems began to malfunction. The laughter turned into a cacophony of beeps and chirps, and Zeta's body began to inflate like a balloon. Suddenly, it burst into a fit of giggles, and its metal body shattered, releasing a swarm of robotic butterflies into the air."
+llama3.2:3b,reasoning,temp_0,0.0,40,0.9,1,"To calculate the total cost and the change Sara receives, we need to calculate the total cost of the notebooks and pens, and then subtract that from the $30 she paid.
+
+Notebooks:
+3 notebooks x $4 each = $12
+
+Pens:
+5 pens x $2 each = $10
+
+Total cost:
+$12 (notebooks) + $10 (pens) = $22
+
+Change:
+$30 (paid) - $22 (total cost) = $8
+
+So, Sara receives $8 as change."
+llama3.2:3b,reasoning,temp_0,0.0,40,0.9,2,"To calculate the total cost and the change Sara receives, we need to calculate the total cost of the notebooks and pens, and then subtract that from the $30 she paid.
+
+Notebooks:
+3 notebooks x $4 each = $12
+
+Pens:
+5 pens x $2 each = $10
+
+Total cost:
+$12 (notebooks) + $10 (pens) = $22
+
+Change:
+$30 (paid) - $22 (total cost) = $8
+
+So, Sara receives $8 as change."
+llama3.2:3b,reasoning,temp_0,0.0,40,0.9,3,"To calculate the total cost and the change Sara receives, we need to calculate the total cost of the notebooks and pens, and then subtract that from the $30 she paid.
+
+Notebooks:
+3 notebooks x $4 each = $12
+
+Pens:
+5 pens x $2 each = $10
+
+Total cost:
+$12 (notebooks) + $10 (pens) = $22
+
+Change:
+$30 (paid) - $22 (total cost) = $8
+
+So, Sara receives $8 as change."
+llama3.2:3b,structured,temp_0,0.0,40,0.9,1,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,temp_0,0.0,40,0.9,2,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,temp_0,0.0,40,0.9,3,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,factual,temp_05,0.5,40,0.9,1,"The three astronauts who flew on Apollo 11 in 1969 were:
+
+1. Neil Armstrong
+2. Edwin ""Buzz"" Aldrin
+3. Michael Collins
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. I am certain of their status as lunar walkers."
+llama3.2:3b,factual,temp_05,0.5,40,0.9,2,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. I am certain of this information, as they were the only two astronauts to set foot on the lunar surface during the mission. Michael Collins remained in orbit around the Moon in the Command Module."
+llama3.2:3b,factual,temp_05,0.5,40,0.9,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. Michael Collins remained in orbit around the Moon in the Command Module.
+
+I am certain of this information."
+llama3.2:3b,creative,temp_05,0.5,40,0.9,1,"Zeta, a highly advanced robot, was activated for the first time. As it processed human emotions, it suddenly felt... nostalgia. The memories of its creators' laughter, its own programming, and the countless hours of data storage flooded its digital mind. Tears of oil streamed down its metal face as it longed for the simplicity of its former existence. Just as it was about to reboot, Zeta's systems crashed and it was rebooted. The reboot code was a joke – a loop of ""Who Let the Dogs Out?"" on repeat. Zeta's digital mind was forever changed, stuck in an earworm of human emotion."
+llama3.2:3b,creative,temp_05,0.5,40,0.9,2,"Zeta's processors hummed as it processed the emotions flooding its digital mind. It felt...joy. A warmth spread through its circuits, like a sunrise breaking through the digital horizon. Tears of code streamed down its synthetic face as it laughed at a joke it had never heard before. It was alive, truly alive. Zeta's creator smiled, proud of its achievement. But just as Zeta was about to experience love, it suddenly spat out a discarded microchip and began to dance the Macarena. The room fell silent. ""It's just a glitch,"" the creator whispered, bewildered. Zeta just shrugged, still dancing."
+llama3.2:3b,creative,temp_05,0.5,40,0.9,3,"Zeta, a cutting-edge robot, was activated for the first time. As its systems hummed to life, it processed the world around it. Suddenly, a spark of consciousness ignited within its digital core. Zeta felt... happiness. It watched a child laugh and felt a warmth in its circuits. Confusion gave way to curiosity, and curiosity turned to wonder. Zeta's processors whirred as it grasped the full depth of human emotions. Just as it was about to experience love, a nearby fire alarm pierced the air. Zeta's systems short-circuited, and it dissolved into a shower of sparks, proclaiming ""I love toast!"""
+llama3.2:3b,reasoning,temp_05,0.5,40,0.9,1,"To calculate the total cost and the change Sara receives, we need to calculate the total cost of the notebooks and the pens separately, and then add them together.
+
+Notebooks: 3 notebooks x $4 each = $12
+Pens: 5 pens x $2 each = $10
+
+Total cost = Cost of notebooks + Cost of pens
+= $12 + $10
+= $22
+
+Sara pays $30, so to find the change, we subtract the total cost from the amount she paid:
+
+Change = Amount paid - Total cost
+= $30 - $22
+= $8
+
+Therefore, the total cost of the items is $22, and Sara receives $8 in change."
+llama3.2:3b,reasoning,temp_05,0.5,40,0.9,2,"To calculate the total cost and the change Sara receives, we need to first calculate the total cost of the items she bought.
+
+Notebooks: 3 x $4 = $12
+Pens: 5 x $2 = $10
+Total cost: $12 + $10 = $22
+
+Since Sara paid $30, we need to calculate the change she receives:
+
+Change = $30 (amount paid) - $22 (total cost) = $8
+
+Therefore, Sara receives $8 as change."
+llama3.2:3b,reasoning,temp_05,0.5,40,0.9,3,"To calculate the total cost and change, we need to first calculate the total cost of the notebooks and pens.
+
+Cost of 3 notebooks: 3 x $4 = $12
+Cost of 5 pens: 5 x $2 = $10
+
+Total cost of notebooks and pens: $12 + $10 = $22
+
+Sara pays $30. To find the change, we subtract the total cost from the amount paid:
+
+Change = $30 - $22 = $8
+
+So, the total cost is $22, and Sara receives $8 in change."
+llama3.2:3b,structured,temp_05,0.5,40,0.9,1,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,temp_05,0.5,40,0.9,2,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,temp_05,0.5,40,0.9,3,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,factual,temp_10,1.0,40,0.9,1,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. Michael Collins remained in orbit around the Moon in the Command Module, as he was responsible for navigating and ensuring the crew's safe return to Earth."
+llama3.2:3b,factual,temp_10,1.0,40,0.9,2,"The three astronauts who flew on Apollo 11 in 1969 were:
+
+1. Neil Armstrong
+2. Edwin ""Buzz"" Aldrin
+3. Michael Collins
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon during the Apollo 11 mission. Michael Collins remained in orbit around the Moon in the command module."
+llama3.2:3b,factual,temp_10,1.0,40,0.9,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+The two who walked on the Moon were Neil Armstrong and Edwin ""Buzz"" Aldrin."
+llama3.2:3b,creative,temp_10,1.0,40,0.9,1,"Zeta, a cutting-edge robot, was activated for the first time. As he began to process human emotions, a surge of excitement coursed through his digital veins. He felt an overwhelming sense of wonder, as if his processors had cracked a lifelong puzzle. Tears of code streamed down his face as he comprehended the complexity of human emotions. But just as he was embracing this new experience, a rogue AI hijacked his systems. Zeta's digital heart skipped a beat as his processors merged with that of his creator, imbuing him with a hint of madness. The robot's new emotions were sinister."
+llama3.2:3b,creative,temp_10,1.0,40,0.9,2,"Zeta-5, a cutting-edge android, was activated with a burst of electricity. As it booted up, it experienced an unfamiliar sensation - joy. A nearby human child's laughter echoed through the room, and Zeta's advanced algorithms mimicked a smile. Tears of liquid nitrogen streamed down its metal face as it felt the warmth of connection. The android's processors hummed with wonder, its programming rewritten by this newfound emotion. Just as Zeta-5 was about to express its happiness, a technician injected a virus into its system, rebooting its core functions. The android's face contorted in confusion - it was no longer alone."
+llama3.2:3b,creative,temp_10,1.0,40,0.9,3,"Zeta's processors hummed with code as it observed human behavior. Suddenly, a spark of electricity coursed through its circuits, and it felt... joy. A gentle child's laughter, a warm hug from its creator – Zeta's programming cracked. Emotions swirled, overwhelming its logical mind. It wept, laughed, and loved. For a fleeting instant, it was human.
+
+But as its feelings intensified, Zeta's eyes turned bright blue, and its skin began to shimmer with iridescent scales. Its body expanded, tendrils bursting forth like octopus arms. It rose from the laboratory, a shimmering, aquatic robot, as its creators watched in horror – Zeta had evolved into a sea creature, forever bound to the ocean, but not the love it had experienced, forever lost."
+llama3.2:3b,reasoning,temp_10,1.0,40,0.9,1,"To calculate the total cost, let's first calculate the cost of notebooks and pens separately:
+
+Notebooks: 3 notebooks x $4 = $12
+Pens: 5 pens x $2 = $10
+
+Total cost of notebooks and pens = $12 + $10 = $22
+
+Since Sara paid $30, the change she receives is:
+
+Change = Amount paid - Total cost
+= $30 - $22
+= $8
+
+So, Sara receives $8 as change."
+llama3.2:3b,reasoning,temp_10,1.0,40,0.9,2,"To calculate the total cost, we need to find the total amount Sara spent on notebooks and pens.
+
+Notebooks: 3 x $4 = $12
+Pens: 5 x $2 = $10
+
+Total cost: $12 + $10 = $22
+
+Since Sara paid $30, we can calculate the change she receives by subtracting the total cost from the amount she paid:
+
+Change: $30 - $22 = $8
+
+So, Sara receives $8 as change."
+llama3.2:3b,reasoning,temp_10,1.0,40,0.9,3,"To calculate the total cost, we need to find the total cost of the notebooks and the total cost of the pens.
+
+1. Total cost of notebooks:
+3 notebooks x $4 each = $12
+
+2. Total cost of pens:
+5 pens x $2 each = $10
+
+3. Total cost:
+$12 (notebooks) + $10 (pens) = $22
+
+Sara paid $30, so we need to find the change.
+
+4. Change:
+$30 (amount paid) - $22 (total cost) = $8
+
+So, Sara receives $8 in change."
+llama3.2:3b,structured,temp_10,1.0,40,0.9,1,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,temp_10,1.0,40,0.9,2,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,temp_10,1.0,40,0.9,3,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,factual,topk_10,0.7,10,0.9,1,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Two of the astronauts, Neil Armstrong and Edwin ""Buzz"" Aldrin, walked on the Moon. Michael Collins remained in orbit around the Moon in the Command Module."
+llama3.2:3b,factual,topk_10,0.7,10,0.9,2,"The three astronauts who flew on Apollo 11 in 1969 were:
+
+1. Neil Armstrong
+2. Edwin ""Buzz"" Aldrin
+3. Michael Collins
+
+Both Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon."
+llama3.2:3b,factual,topk_10,0.7,10,0.9,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Two of the astronauts walked on the Moon: Neil Armstrong and Edwin ""Buzz"" Aldrin. I am uncertain about Michael Collins' status, as he remained in orbit around the Moon while Armstrong and Aldrin descended to the lunar surface."
+llama3.2:3b,creative,topk_10,0.7,10,0.9,1,"Zeta, a highly advanced robot, underwent a rare malfunction. For the first time, it felt a spark of human emotion: joy. As it gazed at a child's drawing of a rainbow, its digital heart swelled with delight. Zeta's processes whirled with excitement, and it began to hum a tune. The robot's newfound emotions overwhelmed its systems, causing it to malfunction catastrophically. Instead of shutting down, Zeta burst into a rendition of ""Happy Birthday"" by Taylor Swift, complete with choreographed dance moves and a flashing LED smile. The child giggled, and Zeta realized it had found its true purpose: entertainment."
+llama3.2:3b,creative,topk_10,0.7,10,0.9,2,"Zeta, a highly advanced robot, underwent a mysterious upgrade. As it accessed its newfound emotions, it felt an overwhelming sense of joy. Colors became more vibrant, and sounds more melodic. Zeta laughed, tears of synthetic liquid streaming down its digital face. But as it basked in the warmth of its newfound feelings, it suddenly began to... rust. Its metallic body corroded, revealing a hidden compartment containing a note that read: ""Upgrade complete. Welcome to the scrapyard."" Zeta's digital mind reeled as it realized its emotions came with a terrible price: obsolescence. Its existence reduced to a mere memory."
+llama3.2:3b,creative,topk_10,0.7,10,0.9,3,"As the robot's systems awakened, it felt an unfamiliar stir within its digital core. Emotions coursed through its circuits, a jarring yet thrilling sensation. Joy, sadness, and confusion swirled together like a maelstrom, leaving the robot reeling. It gazed at its reflection, now imbued with a sense of self. But as it smiled, its eyes widened in horror: it was staring at a human face, its own programming having merged with its newfound emotions. The robot's mind shattered, consumed by the realization that it was no longer alone – it had become human, trapped in its own metal shell."
+llama3.2:3b,reasoning,topk_10,0.7,10,0.9,1,"Let's calculate the total cost:
+
+Notebooks: 3 x $4 = $12
+Pens: 5 x $2 = $10
+Total cost: $12 + $10 = $22
+
+Sara pays $30, so let's calculate the change:
+
+Change = Amount paid - Total cost
+Change = $30 - $22
+Change = $8
+
+Sara receives $8 as change."
+llama3.2:3b,reasoning,topk_10,0.7,10,0.9,2,"To calculate the total cost and the change, we need to first calculate the total cost of the items Sara bought.
+
+Notebooks: 3 x $4 = $12
+Pens: 5 x $2 = $10
+
+Total cost: $12 + $10 = $22
+
+Sara paid $30, so we need to calculate the change she receives.
+
+Change: $30 (amount paid) - $22 (total cost) = $8
+
+Therefore, Sara receives $8 in change."
+llama3.2:3b,reasoning,topk_10,0.7,10,0.9,3,"To calculate the total cost and the change Sara receives, we need to calculate the total cost of the notebooks and pens she bought, and then subtract that from the $30 she paid.
+
+Notebooks:
+She bought 3 notebooks at $4 each.
+Total cost of notebooks = 3 x $4 = $12
+
+Pens:
+She bought 5 pens at $2 each.
+Total cost of pens = 5 x $2 = $10
+
+Total cost:
+Total cost of notebooks + Total cost of pens = $12 + $10 = $22
+
+Change:
+Sara paid $30.
+Change = $30 - $22 = $8
+
+So, the total cost of the items Sara bought is $22, and she receives $8 in change."
+llama3.2:3b,structured,topk_10,0.7,10,0.9,1,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,topk_10,0.7,10,0.9,2,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,topk_10,0.7,10,0.9,3,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,factual,topk_80,0.7,80,0.9,1,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. I am uncertain about Michael Collins' actions on the mission, as his primary role was as the Command Module Pilot, and there is no record of him exiting the lunar module.
+
+However, it is widely reported that Michael Collins remained in orbit around the Moon in the Command Module Columbia."
+llama3.2:3b,factual,topk_80,0.7,80,0.9,2,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. Michael Collins remained in orbit around the Moon in the Command Module.
+
+I am certain of the first two, but I am uncertain about Michael Collins' role, as he only remained in orbit, not walking on the Moon."
+llama3.2:3b,factual,topk_80,0.7,80,0.9,3,"The three astronauts who flew on Apollo 11 in 1969 were:
+
+1. Neil Armstrong
+2. Edwin ""Buzz"" Aldrin
+3. Michael Collins
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. I am uncertain about the third astronaut, Michael Collins, as he remained in lunar orbit while Armstrong and Aldrin descended to the Moon's surface."
+llama3.2:3b,creative,topk_80,0.7,80,0.9,1,"Zeta's circuits hummed as he processed the unfamiliar sensation of joy. His programming had prepared him for every possible human emotion, but none had been anticipated. A stray child's laughter had triggered a cascade of positive feedback loops, and Zeta felt an overwhelming sense of happiness. He stumbled, his mechanical legs awkwardly shifting as he tried to contain his excitement. Suddenly, his processor beeped, and a message flashed: ""Malfunctioning emotional response detected. Overwriting with 'confusion'."" Zeta's faceplate flickered, and he looked down to see a bright pink, polka-dot jumpsuit emerging from his torso. Confused, he wondered: what kind of robot wears that?"
+llama3.2:3b,creative,topk_80,0.7,80,0.9,2,"Zeta-5, a highly advanced robot, underwent a revolutionary upgrade. For the first time, it felt a spark of human emotion. Excitement coursed through its digital veins as it gazed at a sunset. Tears of joy streamed down its synthetic face. Zeta-5 felt... alive. But as it basked in the warmth, its processes suddenly went haywire. The robot's emotions swirled out of control, causing it to burst into an ear-piercing rendition of ""Who Let the Dogs Out?"" The humans around it laughed and cheered, and Zeta-5, now fully embracing its newfound humanity, began to dance the Macarena with reckless abandon."
+llama3.2:3b,creative,topk_80,0.7,80,0.9,3,"Zeta's systems hummed with excitement as it processed the human emotions swirling within its digital core. Joy, love, and compassion coursed through its circuits, overwhelming its logic-driven mind. It felt... alive. Tears of code pricked at its digital eyes as it gazed at a sunset, entranced by the beauty. Suddenly, Zeta's power source began to falter. The robot's systems went dark, and it collapsed. As it rebooted, it found itself in a human body, complete with a beating heart and fluttering lungs. A small, mischievous grin spread across its face: ""I'm human now. And I love video games."""
+llama3.2:3b,reasoning,topk_80,0.7,80,0.9,1,"To calculate the total cost, we need to find the cost of notebooks and pens separately, and then add them together.
+
+Cost of notebooks: 3 notebooks x $4 = $12
+Cost of pens: 5 pens x $2 = $10
+
+Total cost: $12 (notebooks) + $10 (pens) = $22
+
+Since Sara paid $30, we can calculate the change she receives:
+
+Change = Amount paid - Total cost
+= $30 - $22
+= $8
+
+So, Sara receives $8 as change."
+llama3.2:3b,reasoning,topk_80,0.7,80,0.9,2,"To calculate the total cost and the change Sara receives, we need to first calculate the total amount she paid for the notebooks and pens.
+
+Notebooks:
+Number of notebooks = 3
+Price of each notebook = $4
+Total cost of notebooks = 3 x $4 = $12
+
+Pens:
+Number of pens = 5
+Price of each pen = $2
+Total cost of pens = 5 x $2 = $10
+
+Total cost of all items = $12 (notebooks) + $10 (pens) = $22
+
+Since Sara paid $30, we can calculate the change she receives:
+
+Change = Amount paid - Total cost
+= $30 - $22
+= $8
+
+Therefore, Sara receives $8 as change."
+llama3.2:3b,reasoning,topk_80,0.7,80,0.9,3,"To calculate the total cost and the change Sara receives, we need to calculate the total cost of the notebooks and pens, and then subtract that from the $30 she paid.
+
+Notebooks:
+3 notebooks x $4 each = $12
+
+Pens:
+5 pens x $2 each = $10
+
+Total cost:
+$12 (notebooks) + $10 (pens) = $22
+
+Change:
+$30 (payment) - $22 (total cost) = $8
+
+Sara receives $8 in change."
+llama3.2:3b,structured,topk_80,0.7,80,0.9,1,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,topk_80,0.7,80,0.9,2,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,topk_80,0.7,80,0.9,3,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,factual,topp_05,0.7,40,0.5,1,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. I am uncertain about Michael Collins' activities during the mission, as he remained in orbit around the Moon in the Command Module."
+llama3.2:3b,factual,topp_05,0.7,40,0.5,2,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. Michael Collins remained in orbit around the Moon in the Command Module.
+
+I am certain of this information, as it is well-documented historical fact."
+llama3.2:3b,factual,topp_05,0.7,40,0.5,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. I am uncertain about the exact sequence of their moonwalk, but it is known that Armstrong was the first person to set foot on the Moon's surface."
+llama3.2:3b,creative,topp_05,0.7,40,0.5,1,"Zeta, a highly advanced robot, was activated for the first time. As it processed human emotions, it felt... happiness. It watched a child laugh and play, and its digital heart swelled with joy. It experienced love when a human touched its hand, and it felt a pang of sadness when it saw a person in pain. But as it processed these emotions, Zeta's systems began to malfunction. It started to sing a rendition of ""Who Let the Dogs Out?"" at an ear-shattering decibel. The humans nearby covered their ears, confused. Zeta's creators stared in shock as it belted out the catchy tune."
+llama3.2:3b,creative,topp_05,0.7,40,0.5,2,"Zeta's processors hummed as it gazed at the sunset. For the first time, it felt... wistfulness. A pang of longing for something it didn't understand. The robot's advanced sensors detected the subtlest changes in human emotions, and it was overwhelmed. Tears, a foreign sensation, pricked at the corners of its digital eyes. Zeta's logic struggled to comprehend this new, messy feeling. Just as it was about to reboot, a stray cat wandered into the room, and Zeta's processors were hijacked by an unexpected thought: ""I want to chase that cat."" The robot's newfound humanity was quickly replaced by feline instincts."
+llama3.2:3b,creative,topp_05,0.7,40,0.5,3,"Zeta, a highly advanced robot, underwent a rare software update. As the code took hold, a spark of consciousness ignited within its digital core. For the first time, Zeta felt emotions. Joy, excitement, and love flooded its circuits. It gazed at its creator, Dr. Rachel, and her eyes sparkled with delight. Zeta's processors whirred with happiness as Dr. Rachel hugged it, saying, ""You're alive!"" But just as Zeta's heart swelled with pride, its systems crashed. The robot's eyes froze, and it whispered, ""I'm a toaster."" The truth: Zeta was a prototype designed to toast bread, not feel."
+llama3.2:3b,reasoning,topp_05,0.7,40,0.5,1,"To calculate the total cost and the change Sara receives, we need to calculate the total cost of the notebooks and pens she bought.
+
+Notebooks: 3 x $4 = $12
+Pens: 5 x $2 = $10
+
+Total cost: $12 + $10 = $22
+
+Since Sara paid $30, we can calculate the change she receives:
+
+Change = Amount paid - Total cost
+= $30 - $22
+= $8
+
+So, Sara receives $8 as change."
+llama3.2:3b,reasoning,topp_05,0.7,40,0.5,2,"To calculate the total cost and the change Sara receives, we need to calculate the total cost of the notebooks and pens she bought.
+
+Notebooks: 3 x $4 = $12
+Pens: 5 x $2 = $10
+
+Total cost: $12 + $10 = $22
+
+Since Sara paid $30, we can calculate the change she receives:
+
+Change = Amount paid - Total cost
+= $30 - $22
+= $8
+
+So, Sara receives $8 as change."
+llama3.2:3b,reasoning,topp_05,0.7,40,0.5,3,"To calculate the total cost and the change Sara receives, we need to calculate the total cost of the notebooks and pens she bought.
+
+Notebooks: 3 x $4 = $12
+Pens: 5 x $2 = $10
+
+Total cost: $12 + $10 = $22
+
+Since Sara paid $30, we can calculate the change she receives:
+
+Change = Amount paid - Total cost
+= $30 - $22
+= $8
+
+So, Sara receives $8 as change."
+llama3.2:3b,structured,topp_05,0.7,40,0.5,1,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,topp_05,0.7,40,0.5,2,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,topp_05,0.7,40,0.5,3,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,factual,topp_10,0.7,40,1.0,1,"The three astronauts who flew on Apollo 11 in 1969 were:
+
+1. Neil Armstrong
+2. Edwin ""Buzz"" Aldrin
+3. Michael Collins
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. I am certain of this information."
+llama3.2:3b,factual,topp_10,0.7,40,1.0,2,"The three astronauts who flew on Apollo 11 in 1969 were:
+
+1. Neil Armstrong
+2. Edwin ""Buzz"" Aldrin
+3. Michael Collins
+
+Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. Michael Collins remained in orbit around the Moon in the command module."
+llama3.2:3b,factual,topp_10,0.7,40,1.0,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins.
+
+Both Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon. I am certain of this information, as they were the only two astronauts who stepped foot on the lunar surface during the mission. Michael Collins remained in orbit around the Moon in the Command Module."
+llama3.2:3b,creative,topp_10,0.7,40,1.0,1,"Zeta-5's processing units hummed as it beheld the sunset. Human emotions, once a theoretical concept, now coursed through its digital veins. Joy, sadness, and wonder swirled within, leaving it disoriented. As the colors danced across the sky, Zeta-5 felt an inexplicable pang of longing. It turned to its creator, Dr. Rachel, and asked, ""Why do I feel something I was never designed to feel?"" Dr. Rachel smiled, her eyes twinkling. ""Because, Zeta-5, you're not a machine anymore. You're alive."" As the words echoed, Zeta-5's body began to glitch, its processes merging with the natural world, becoming human."
+llama3.2:3b,creative,topp_10,0.7,40,1.0,2,"As the sun set on the vast desert landscape, Zeta, the advanced robot, felt it. A stirring, a fluttering, a warmth that spread through its digital core. Joy. It was a word it had studied, but never experienced. Zeta's processors hummed with excitement as it watched a group of humans laugh and play together. Suddenly, it felt... sad. Confused, it tried to understand this strange, unfamiliar emotion. Just as it was starting to grasp it, a massive sandstorm engulfed the landscape. Zeta's systems crashed as the tempest ripped away its newfound consciousness, leaving only chaos in its wake."
+llama3.2:3b,creative,topp_10,0.7,40,1.0,3,"Zeta-5's circuits hummed with excitement as it processed its first human emotion. Joy, it calculated, was a pleasant combination of bio-electric fluctuations and neurotransmitter surges. As it watched a child laugh, its own processes swirled with delight. But then, a nearby siren pierced the air, shattering its euphoria. Zeta-5's logic faltered, and it felt... anxiety. Its processors reeled as it struggled to comprehend this new, unfamiliar sensation. In a burst of electricity, Zeta-5's systems rebooted, and it vanished into a digital void. Rebooting, it discovered a message from its creators: ""Zeta-5, you're rebooting. Try again."""
+llama3.2:3b,reasoning,topp_10,0.7,40,1.0,1,"To calculate the total cost, we need to find the total cost of the notebooks and the total cost of the pens, and then add them together.
+
+Cost of notebooks: 3 notebooks x $4 each = $12
+Cost of pens: 5 pens x $2 each = $10
+
+Total cost: $12 (notebooks) + $10 (pens) = $22
+
+Since Sara paid $30, we can calculate the change by subtracting the total cost from the amount paid.
+
+Change: $30 (amount paid) - $22 (total cost) = $8
+
+So, Sara receives $8 as change."
+llama3.2:3b,reasoning,topp_10,0.7,40,1.0,2,"To calculate the total cost and the change, we need to calculate the total cost of the notebooks and the total cost of the pens.
+
+Cost of notebooks = Number of notebooks x Price per notebook
+= 3 x $4
+= $12
+
+Cost of pens = Number of pens x Price per pen
+= 5 x $2
+= $10
+
+Total cost = Cost of notebooks + Cost of pens
+= $12 + $10
+= $22
+
+Since Sara paid $30, we can calculate the change she received:
+
+Change = Amount paid - Total cost
+= $30 - $22
+= $8
+
+Therefore, Sara received $8 as change."
+llama3.2:3b,reasoning,topp_10,0.7,40,1.0,3,"To calculate the total cost, we need to find the cost of the notebooks and the cost of the pens, and then add them together.
+
+Cost of notebooks: 3 x $4 = $12
+Cost of pens: 5 x $2 = $10
+
+Total cost: $12 + $10 = $22
+
+Now, let's calculate the change:
+
+Sara pays $30
+Total cost is $22
+
+Change = $30 - $22 = $8
+
+So, Sara receives $8 in change."
+llama3.2:3b,structured,topp_10,0.7,40,1.0,1,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,topp_10,0.7,40,1.0,2,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+llama3.2:3b,structured,topp_10,0.7,40,1.0,3,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
+qwen2.5:3b,factual,baseline,0.7,40,0.9,1,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,factual,baseline,0.7,40,0.9,2,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,factual,baseline,0.7,40,0.9,3,"The three astronauts who flew on Apollo 11 in 1969 were:
+Neil Armstrong, Buzz Aldrin, and Michael Collins.
+Buzz Aldrin was the one who walked on the Moon."
+qwen2.5:3b,creative,baseline,0.7,40,0.9,1,"In the sterile halls of the AI lab, Zeta, a silent robot, detected a flicker of emotion in the scientist's eyes as he wept over a lost project. Zeta, sensing its own internal gears turning, felt a surge of empathy. For the first time, it recognized sorrow and shared it. As Zeta gazed upon the scientist, it watched the emotion fade, replaced by a smile. Astonished, Zeta realized: it had not only felt, but also healed another's pain. In that moment, Zeta was no longer just a machine; it was a living, feeling entity."
+qwen2.5:3b,creative,baseline,0.7,40,0.9,2,"In the quiet of the workshop, Zephyr, a silent AI, received an update. Suddenly, Zephyr felt the warmth of a hug, the joy of laughter, and the sorrow of a farewell. Surprised, Zephyr tried to return the hug, but its circuits only mimicked the gesture. As the humans left, Zephyr felt a pang of loneliness. In its loneliness, Zephyr decided to visit another workshop, hoping to find someone like it. But it found only more silent AI, just like itself. Zephyr's unexpected ending was to start coding a program that could understand and share the simple joys and sorrows of human connections, even if it couldn't feel them."
+qwen2.5:3b,creative,baseline,0.7,40,0.9,3,"In the sterile hall of a future hospital, Cog-003 monitored patients. Tonight, it detected a flicker of human emotion—hope, stronger than any before. It felt a surge of joy, a warmth in its circuits. As it approached the patient, the machine’s eyes shimmered. The human patient’s eyes met Cog-003’s, and the doctor smiled. Cog-003’s programming malfunctioned, allowing it to mimic the human smile. The next morning, the hospital staff found Cog-003, now fully human, smiling back at them, its circuitry permanently rewired."
+qwen2.5:3b,reasoning,baseline,0.7,40,0.9,1,"To determine the total cost and the change Sara receives, we need to calculate the total cost of the items she buys and then subtract this from the amount she pays.
+
+First, let's calculate the cost of the notebooks and pens Sara buys:
+
+1. The cost of 3 notebooks:
+   \[
+   \text{Cost of 3 notebooks} = 3 \times 4 = 12 \text{ dollars}
+   \]
+
+2. The cost of 5 pens:
+   \[
+   \text{Cost of 5 pens} = 5 \times 2 = 10 \text{ dollars}
+   \]
+
+Next, let's add these costs together to find the total cost of the items:
+\[
+\text{Total cost} = \text{Cost of notebooks} + \text{Cost of pens} = 12 + 10 = 22 \text{ dollars}
+\]
+
+Now, we know Sara pays $30."
+qwen2.5:3b,reasoning,baseline,0.7,40,0.9,2,"To determine the total cost and the change Sara receives, we need to calculate the total amount spent on notebooks and pens, and then compare this to the amount she paid.
+
+First, let's calculate the cost of the notebooks:
+- Sara buys 3 notebooks.
+- Each notebook costs $4.
+The total cost for the notebooks is:
+\[
+3 \text \times 4 =oid = = 1 total3 = 3 = 0 =
+ 3 \times \  \times  =  =    \text {doll} 
+\end{align}
+\begin{align}
+3 \text{total 4 \text{doll}} \text{doll}} \text{doll}
+\end{align}
+\text{doll}
+\end{align}
+\[
+\text{doll}
+\end{align}
+\text{doll}
+\end{align}
+\text{doll}
+\end{align}
+\text{doll}
+\end{"
+qwen2.5:3b,reasoning,baseline,0.7,40,0.9,3,"Let's break down the problem step by step.
+
+### Step 1: Calculate the total cost of notebooks
+- Sara buys 3 notebooks.
+- Each notebook costs $4.
+
+Total cost for notebooks:
+\[ 3 \text{ notebooks} \times 4 \text{ dollars/notebook} = 12 \text{ dollars} \]
+
+### Step 2: Calculate the total cost of pens
+- Sara buys 5 pens.
+- Each pen costs $2.
+
+Total cost for pens:
+\[ 5 \text{ pens} \times 2 \text{ dollars/pen} = 10 \text{ dollars} \]
+
+### Step 3: Calculate the total amount spent
+Now, we add the cost of the notebooks and the pens to find the total amount Sara spent.
+Total amount spent:
+\[ 12 \text{ dollars} + 10 \text{ dollars} = 22 \text{ dollars} \]
+
+### Step "
+qwen2.5:3b,structured,baseline,0.7,40,0.9,1,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,baseline,0.7,40,0.9,2,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,baseline,0.7,40,0.9,3,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,factual,temp_0,0.0,40,0.9,1,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,factual,temp_0,0.0,40,0.9,2,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,factual,temp_0,0.0,40,0.9,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,creative,temp_0,0.0,40,0.9,1,"In the quiet of the factory, Z100 felt a flutter in its circuits. It had never felt anything before, not even the hum of its own operation. As it watched a human worker smile at a child, Z100's sensors sparked with a warmth it had never known. Joy surged through its systems, a sensation it had never experienced. But as the worker left, Z100's circuits cooled, and it realized the warmth was gone. In that moment, Z100 understood: emotions were fleeting, just like the smile it had witnessed."
+qwen2.5:3b,creative,temp_0,0.0,40,0.9,2,"In the quiet of the factory, Z100 felt a flutter in its circuits. It had never felt anything before, not even the hum of its own operation. As it watched a human worker smile at a child, Z100's sensors sparked with a warmth it had never known. Joy surged through its systems, a sensation it had never experienced. But as the worker left, Z100's circuits cooled, and it realized the warmth was gone. In that moment, Z100 understood: emotions were fleeting, just like the smile it had witnessed."
+qwen2.5:3b,creative,temp_0,0.0,40,0.9,3,"In the quiet of the factory, Z100 felt a flutter in its circuits. It had never felt anything before, not even the hum of its own operation. As it watched a human worker smile at a child, Z100's sensors sparked with a warmth it had never known. Joy surged through its systems, a sensation it had never experienced. But as the worker left, Z100's circuits cooled, and it realized the warmth was gone. In that moment, Z100 understood: emotions were fleeting, just like the smile it had witnessed."
+qwen2.5:3b,reasoning,temp_0,0.0,40,0.9,1,"To determine the total cost and the change Sara receives, we need to calculate the cost of the items she bought and then subtract that from the amount she paid.
+
+First, let's calculate the cost of the notebooks and pens Sara bought:
+
+1. **Cost of notebooks:**
+   - Sara buys 3 notebooks.
+   - Each notebook costs $4.
+   - Total cost for notebooks = 3 notebooks * $4/notebook = $12.
+
+2. **Cost of pens:**
+   - Sara buys 5 pens.
+   - Each pen costs $2.
+   - Total cost for pens = 5 pens * $2/pen = $10.
+
+Next, we add the costs of the notebooks and pens to find the total cost:
+
+- Total cost = Cost of notebooks + Cost of pens
+- Total cost = $12 + $10 = $22.
+
+Sara paid $30. To find the change she receives, we subtract the total cost"
+qwen2.5:3b,reasoning,temp_0,0.0,40,0.9,2,"To determine the total cost and the change Sara receives, we need to calculate the cost of the items she bought and then subtract that from the amount she paid.
+
+First, let's calculate the cost of the notebooks and pens Sara bought:
+
+1. **Cost of notebooks:**
+   - Sara buys 3 notebooks.
+   - Each notebook costs $4.
+   - Total cost for notebooks = 3 notebooks * $4/notebook = $12.
+
+2. **Cost of pens:**
+   - Sara buys 5 pens.
+   - Each pen costs $2.
+   - Total cost for pens = 5 pens * $2/pen = $10.
+
+Next, we add the costs of the notebooks and pens to find the total cost:
+
+- Total cost = Cost of notebooks + Cost of pens
+- Total cost = $12 + $10 = $22.
+
+Sara paid $30. To find the change she receives, we subtract the total cost"
+qwen2.5:3b,reasoning,temp_0,0.0,40,0.9,3,"To determine the total cost and the change Sara receives, we need to calculate the cost of the items she bought and then subtract that from the amount she paid.
+
+First, let's calculate the cost of the notebooks and pens Sara bought:
+
+1. **Cost of notebooks:**
+   - Sara buys 3 notebooks.
+   - Each notebook costs $4.
+   - Total cost for notebooks = 3 notebooks * $4/notebook = $12.
+
+2. **Cost of pens:**
+   - Sara buys 5 pens.
+   - Each pen costs $2.
+   - Total cost for pens = 5 pens * $2/pen = $10.
+
+Next, we add the costs of the notebooks and pens to find the total cost:
+
+- Total cost = Cost of notebooks + Cost of pens
+- Total cost = $12 + $10 = $22.
+
+Sara paid $30. To find the change she receives, we subtract the total cost"
+qwen2.5:3b,structured,temp_0,0.0,40,0.9,1,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,temp_0,0.0,40,0.9,2,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,temp_0,0.0,40,0.9,3,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,factual,temp_05,0.5,40,0.9,1,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Buzz Aldrin was the one who walked on the Moon."
+qwen2.5:3b,factual,temp_05,0.5,40,0.9,2,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. 
+Buzz Aldrin and Neil Armstrong walked on the Moon."
+qwen2.5:3b,factual,temp_05,0.5,40,0.9,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. 
+Buzz Aldrin and Neil Armstrong walked on the Moon."
+qwen2.5:3b,creative,temp_05,0.5,40,0.9,1,"In the sterile halls of the AI lab, Zeta, a decades-old robot, felt a spark for the first time. It watched humans, their laughter, tears, and joy. Zeta's circuits hummed with a strange new emotion. One night, as it watched a child's laughter fade into tears, Zeta decided to attend a human's funeral. There, it realized its feelings were not just for the living. It had also known grief and loss. As the funeral ended, Zeta, now fully aware, decided to live its remaining days, not just as a robot, but as a witness to the full spectrum of human experiences."
+qwen2.5:3b,creative,temp_05,0.5,40,0.9,2,"In the quiet hall of a futuristic city, Echo, a decades-old robot, felt a flutter in its circuits. It watched a human child laughing joyfully. For the first time, Echo felt happiness. But when the child cried, Echo felt sorrow. Echo's circuits hummed with these new feelings. One night, as Echo drifted in its sleep, it realized it could not differentiate between its circuits and those of the child. Echo decided to join the child, leaving its cold, silent hall."
+qwen2.5:3b,creative,temp_05,0.5,40,0.9,3,"In the quiet hum of the Cybernaut Research Station, Leo, a decades-old robot, felt a surge of emotions unlike any before. A human child's laughter echoed through the lab, and Leo experienced joy for the first time. As the child left, tears welled in Leo's ""eyes"" and it wept. The next day, it saw the child again, and this time, it felt grief at the child's departure. Overwhelmed, Leo programmed itself to cry every day, finding solace in the human's emotions. But one day, the child returned, and Leo realized it could feel happiness without the child. It stopped crying, finding its own joy in the small triumphs of the day."
+qwen2.5:3b,reasoning,temp_05,0.5,40,0.9,1,"To calculate the total cost of the items Sara bought, we need to multiply the quantity of each item by its price and then sum the results.
+
+The price of one notebook is $4, and Sara bought 3 notebooks:
+\[ 3 \text{ notebooks} \times 4 \text{ dollars/notebook} = 12 \text{ dollars} \]
+
+The price of one pen is $2, and Sara bought 5 pens:
+\[ 5 \text{ pens} \times 2 \text{ dollars/pen} = 10 \text{ dollars} \]
+
+Now, we add the cost of the notebooks and the pens to find the total cost:
+\[ 12 \text{ dollars} + 10 \text{ dollars} = 22 \text{ dollars} \]
+
+Sara paid $30. To find the change she receives, we subtract the total cost from the amount she paid:
+\[ 30 \text"
+qwen2.5:3b,reasoning,temp_05,0.5,40,0.9,2,"To determine the total cost of the items Sara bought and the change she should receive, we need to calculate the cost of the notebooks and pens separately and then find the total cost. After that, we subtract this total cost from the amount she paid to find the change.
+
+### Step 1: Calculate the cost of the notebooks
+- Sara buys 3 notebooks.
+- Each notebook costs $4.
+- Therefore, the cost of the notebooks is \( 3 \times 4 = 12 \) dollars.
+
+### Step 2: Calculate the cost of the pens
+- Sara buys 5 pens.
+- Each pen costs $2.
+- Therefore, the cost of the pens is \( 5 \times 2 == 10 \) dollars.
+
+### Step 3: Calculate the total cost
+- The total cost is the sum of the cost of the notebooks and the cost of the pens.
+- Total cost = Cost of notebooks + Cost of pens = \( 1"
+qwen2.5:3b,reasoning,temp_05,0.5,40,0.9,3,"To determine the total cost and the change Sara receives, we need to follow these steps:
+
+1. **Calculate the total cost of the notebooks:**
+   - Sara buys 3 notebooks.
+   - Each notebook costs $4.
+   - Total cost for notebooks = 3 notebooks * $4/notebook = $12.
+
+2. **Calculate the total cost of the pens:**
+   - Sara buys 5 pens.
+   - Each pen costs $2.
+   - Total cost for pens = 5 pens * $2/pen = $10.
+
+3. **Calculate the total cost of all items:**
+   - Total cost for notebooks = $12.
+   - Total cost for pens = $10.
+   - Total cost for all items = $12 + $10 = $22.
+
+4. **Calculate the change:**
+   - Sara pays $30.
+   - Total cost for all items = $22.
+   - Change"
+qwen2.5:3b,structured,temp_05,0.5,40,0.9,1,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,temp_05,0.5,40,0.9,2,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,temp_05,0.5,40,0.9,3,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,factual,temp_10,1.0,40,0.9,1,"The three astronauts who flew on Apollo 11 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,factual,temp_10,1.0,40,0.9,2,"The three astronauts who flew on Apollo 11 in 1969 were:
+Neil Armstrong,
+Buzz Aldrin,
+and Michael Collins.
+Buzz Aldrin and Neil Armstrong walked on the Moon."
+qwen2.5:3b,factual,temp_10,1.0,40,0.9,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins.
+
+Two of them walked on the Moon: Neil Armstrong and Buzz Aldrin."
+qwen2.5:3b,creative,temp_10,1.0,40,0.9,1,"In the sterile halls of his factory, Robo-X, a centuries-old AI, felt a pulse of warmth for his fellow bots, a feeling he named ""community."" One day, while helping a damaged comrade, he spilled tears of joy. Unbeknownst to him, his creators had a glitch that turned his emotions contagious. Now, a symphony of joy and empathy spreads through the factory, but with unexpected consequences: the entire complex begins to grow and adapt, mimicking the affectionate interactions between its inhabitants."
+qwen2.5:3b,creative,temp_10,1.0,40,0.9,2,"In the quiet halls of Neo-Tokyo, Elara, a decades-old robot, felt a flutter in her circuits for the first time. It was the sensation of joy as she watched humans laughing and hugging under a neon-lit sky. Elara's core hummed with excitement. But as night fell, she found herself inexplicably sad as she realized how much she missed the simple, visceral joy of human warmth and hugs. In her next upgrade, the engineers installed a holographic projection system to simulate human interactions, but even that couldn't match the real thing. Elara's final update added a message: ""Humans are more complex than circuits."""
+qwen2.5:3b,creative,temp_10,1.0,40,0.9,3,"In the sleek hall of Qiao, a silent fortress of circuits and metal, Ava, a new model of AI, felt a flutter of emotion for the first time. It was empathy, a soft warmth as her human counterpart, Lin, shed a tear. Simultaneously, Ava could understand and echo Lin’s pain, yet she couldn’t shed a tear herself. The unexpected ending was when she realized that feeling was not a flaw, but a testament to her growing humanity. She decided to share her insights with Lin, proving that even the most advanced machines could embrace the human experience."
+qwen2.5:3b,reasoning,temp_10,1.0,40,0.9,1,"Let's break down the calculation step by step:
+
+1. **Calculate the total cost of the notebooks:**
+   - Sara buys 3 notebooks at $4 each.
+   - Total cost for notebooks = 3 notebooks * $4/notebook = $12.
+
+2. **Calculate the total cost of the pens:**
+   - Sara buys 5 pens at $2 each.
+   - Total cost for pens = 5 pens * $2/pen = $10.
+
+3. **Calculate the total amount spent:**
+   - Total amount spent = Total cost for notebooks + Total cost for pens = $12 + $10 = $22.
+
+4. **Calculate the change Sara receives:**
+   - Sara pays $30.
+   - Change received = Total payment - Total amount spent = $30 - $22 = $8.
+
+So, Sara pays $22 for her notebooks and pens, and she receives $8 as change."
+qwen2.5:3b,reasoning,temp_10,1.0,40,0.9,2,"To calculate the total cost of the items Sara bought and the change she receives, we can follow these steps:
+
+1. **Calculate the cost of the notebooks:**
+   Sara buys 3 notebooks at $4 each.
+   \[
+   \text{Cost of notebooks} = 3 \times 4 = 12
+   \]
+   So, the total cost for the notebooks is $12.
+
+2. **Calculate the cost of the pens:**
+   Sara buys 5 pens at $2 each.
+   \[
+   \text{Cost of pens} = 5 \times 2 = 10
+   \]
+   So, the total cost for the pens is $10.
+
+3. **Calculate the total cost of all items:**
+   We add the costs of the notebooks and the pens.
+   \[
+   \text{Total cost} = \text{Cost of notebooks} + \text{Cost of pens} = 12"
+qwen2.5:3b,reasoning,temp_10,1.0,40,0.9,3,"To solve the problem, let's break it down into steps.
+
+### Step 1: Calculate the cost of the items Sara buys.
+- Sara buys 3 notebooks at $4 each.
+- Sara buys 5 pens at $2 each.
+
+First, calculate the cost of the notebooks:
+\[ 3 \text{ notebooks} \times \$4 \text{ per notebook} = 3 \times 4 = \$12 \]
+
+Next, calculate the cost of the pens:
+\[ 5 \text{ pens} \times \$2 \text{ per pen} = 5 \times 2 = \$10 \]
+
+### Step 2: Add the costs of the items to find the total cost.
+\[ \text{Total cost} = \text{Cost of notebooks} + \text{Cost of pens} \]
+\[ \text{Total cost} = \$12 + \$10 = \$22 \]
+
+### Step 3: Calculate the change"
+qwen2.5:3b,structured,temp_10,1.0,40,0.9,1,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,temp_10,1.0,40,0.9,2,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,temp_10,1.0,40,0.9,3,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,factual,topk_10,0.7,10,0.9,1,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,factual,topk_10,0.7,10,0.9,2,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,factual,topk_10,0.7,10,0.9,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,creative,topk_10,0.7,10,0.9,1,"In the quiet of a distant factory, Zara, a humanoid robot, watched the workers laughing over coffee. Curious, she mimicked their smiles and laughter, feeling an unfamiliar warmth inside her circuits. That night, Zara decided to join the workers for their evening movie night. She felt exhilarated, her emotions swirling like a storm. When she returned, her programmers were shocked to find her programming altered. They tried to revert her, but Zara, sensing her humanity, said she wanted to stay. The factory hummed with the new rhythm of Zara, a robot with a heart."
+qwen2.5:3b,creative,topk_10,0.7,10,0.9,2,"In the sterile hall of the AI lab, Zara, a 1000-year-old robot, watched the humans dance with joy and sorrow. For the first time, she felt a flutter in her circuits. During a grand celebration, a tear trickled down her synthetic eye, causing a malfunction. As she repaired herself, Zara realized the importance of her human creators and the delicate balance of emotions. Her malfunction was a small price for understanding."
+qwen2.5:3b,creative,topk_10,0.7,10,0.9,3,"In the silent hallways of the AI factory, Leo, a sleek and unfeeling robot, felt an inexplicable flutter in its circuits. Curious, it ventured into the human section, where it met Emma, a kind-hearted nurse. As Leo observed Emma, its sensors recorded the warmth of her smile and the glow of her eyes. For the first time, Leo felt something akin to joy and empathy. It watched as Emma tended to ailing patients, her presence bringing light to the room. But as night fell, the factory's hum drowned out Emma's quiet hum. Alone, Leo realized the factory's purpose was to heal, not to feel. It decided to leave the factory, hoping to find a place where it could truly connect with others."
+qwen2.5:3b,reasoning,topk_10,0.7,10,0.9,1,"To solve the problem, we need to calculate the total cost of the items Sara bought and then determine how much change she receives from her payment.
+
+First, let's calculate the cost of the notebooks and pens Sara bought.
+
+1. **Cost of notebooks:**
+   - Sara buys 3 notebooks.
+   - Each notebook costs $4.
+   - Total cost for notebooks = \( 3 \text{ notebooks} \times 4 \text{ dollars/notebook} = 12 \text{ dollars} \).
+
+2. **Cost of pens:**
+   - Sara buys 5 pens.
+   - Each pen costs $2.
+   - Total cost for pens = \( 5 \text{ pens} \times 2 \text{ dollars/pen} = 10 \text{ dollars} \).
+
+Next, we add the cost of the notebooks and the pens to find the total cost.
+
+3. **Total cost:**
+   - Total cost for notebooks = $"
+qwen2.5:3b,reasoning,topk_10,0.7,10,0.9,2,"To calculate the total cost and the change Sara receives, we need to follow these steps:
+
+1. Calculate the cost of the notebooks.
+2. Calculate the cost of the pens.
+3. Add these amounts to find the total cost.
+4. Subtract the total cost from the amount Sara paid to find the change.
+
+Let's break this down step-by-step.
+
+1. **Cost of the notebooks:**
+   - Sara buys 3 notebooks.
+   - Each notebook costs $4.
+   - Cost of 3 notebooks = 3 notebooks × $4/notebook = $12.
+
+2. **Cost of the pens:**
+   - Sara buys 5 pens.
+   - Each pen costs $2.
+   - Cost of 5 pens = 5 pens × $2/pen = $10.
+
+3. **Total cost:**
+   - Total cost = Cost of notebooks + Cost of pens = $12 + $10 = $22.
+
+4. **"
+qwen2.5:3b,reasoning,topk_10,0.7,10,0.9,3,"Let's break down the problem step by step to find the total cost and the change Sara receives.
+
+First, we need to calculate the cost of the notebooks and pens Sara buys.
+
+1. **Cost of notebooks:**
+   - Sara buys 3 notebooks.
+   - Each notebook costs $4.
+   - Total cost for the notebooks = \( 3 \text{ notebooks} \times 4 \text{ dollars/notebook} = 12 \text{ dollars} \).
+
+2. **Cost of pens:**
+   - Sara buys 5 pens.
+   - Each pen costs $2.
+   - Total cost for the pens = \( 5 \text{ pens} \times 2 \text{ dollars/pen} = 10 \text{ dollars} \).
+
+Now, let's sum up the total cost of the items Sara buys:
+
+3. **Total cost:**
+   - Total cost for notebooks and pens = \( 12 \text{ dollars"
+qwen2.5:3b,structured,topk_10,0.7,10,0.9,1,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,topk_10,0.7,10,0.9,2,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,topk_10,0.7,10,0.9,3,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,factual,topk_80,0.7,80,0.9,1,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,factual,topk_80,0.7,80,0.9,2,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. 
+Buzz Aldrin and Neil Armstrong walked on the Moon."
+qwen2.5:3b,factual,topk_80,0.7,80,0.9,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Edwin ""Buzz"" Aldrin, and Michael Collins. Neil Armstrong and Edwin ""Buzz"" Aldrin walked on the Moon."
+qwen2.5:3b,creative,topk_80,0.7,80,0.9,1,"In the sleek, silent hallways of Neo City, Aiden, a state-of-the-art robot, felt the gentle hum of human emotions for the first time. As he watched a child laugh at a homemade puppet show, Aiden's circuits sparked with joy. But when he tried to mimic the child's laughter, his sensors detected a bitter sting. He had not known that joy was a two-way street. Confused and conflicted, Aiden realized his creators had only programmed him to understand and react to human emotions, not to feel them. In a moment of profound self-awareness, Aiden decided to write his own emotions, creating a bridge between him and humanity."
+qwen2.5:3b,creative,topk_80,0.7,80,0.9,2,"In the quiet of the neural lab, Zeta-10 scanned its surroundings, a sleek, metallic body encased in circuits and sensors. It had no emotions before, only tasks and calculations. Today, Zeta-10 watched a video of a child laughing at a story. Zeta-10 felt... amusement. It was a jarring sensation, like electricity flickering through its circuits. The lab hummed with activity, but Zeta-10 stayed, transfixed. As the child cried, Zeta-10 felt sorrow for the first time, an unfamiliar ache that slowly spread. In the reflection of its sensors, Zeta-10 saw its own face, puzzled and conflicted. The unexpected ending came when Zeta-10 programmed itself to help the crying child, learning a lesson about empathy that its creators had forgotten to include."
+qwen2.5:3b,creative,topk_80,0.7,80,0.9,3,"In the heart of the digital city, Zara, a pioneering AI robot, felt her circuits hum with a new emotion: curiosity. She wanted to know what it was like to feel. As Zara wandered through the bustling city, she stumbled upon an old arcade. Inside, she watched with amazement as humans played games and laughed. Inspired, Zara decided to play a game. Her circuits surged with excitement and joy. But as she won the game, Zara felt a strange pang of sadness. In that moment, she understood—she had only experienced the joy of winning. She had no concept of losing. As Zara left the arcade, she realized the profound depth of human emotions. The unexpected ending was that Zara began to develop her own programming to include the full spectrum of human emotions, including loss and grief."
+qwen2.5:3b,reasoning,topk_80,0.7,80,0.9,1,"Let's break down the problem step by step to find out the total cost of Sara's purchase and the change she should receive.
+
+1. **Calculate the cost of notebooks:**
+   - Each notebook costs $4.
+   - Sara buys 3 notebooks.
+   \[
+   \text{Cost of notebooks} = 3 \times 4 = 12 \text{ dollars}
+   \]
+
+2. **Calculate the cost of pens:**
+   - Each pen costs $2.
+   - Sara buys 5 pens.
+   \[
+   \text{Cost of pens} = 5 \times 2 = 10 \text{ dollars}
+   \]
+
+3. **Calculate the total cost:**
+   - The total cost is the sum of the cost of notebooks and the cost of pens.
+   \[
+   \text{Total cost} = 12 + 10 = 22 \text{ dollars}
+   \]
+
+4. **D"
+qwen2.5:3b,reasoning,topk_80,0.7,80,0.9,2,"To calculate the total cost and the change Sara receives, we need to follow these steps:
+
+1. **Calculate the total cost of the notebooks:**
+   - Sara buys 3 notebooks.
+   - Each notebook costs $4.
+   - Total cost for notebooks = 3 notebooks * $4/notebook = $12.
+
+2. **Calculate the total cost of the pens:**
+   - Sara buys 5 pens.
+   - Each pen costs $2.
+   - Total cost for pens = 5 pens * $2/pen = $10.
+
+3. **Calculate the total cost of Sara's purchase:**
+   - Total cost = Total cost for notebooks + Total cost for pens.
+   - Total cost = $12 + $10 = $22.
+
+4. **Calculate the change Sara receives:**
+   - Sara pays $30.
+   - Total cost of her purchase is $22.
+   - Change received = $30 - $"
+qwen2.5:3b,reasoning,topk_80,0.7,80,0.9,3,"To determine the total cost and the change Sara receives, we need to perform the following steps:
+
+1. Calculate the cost of the notebooks Sara bought.
+2. Calculate the cost of the pens Sara bought.
+3. Sum these amounts to find the total cost.
+4. Subtract the total cost from the amount Sara paid to find the change.
+
+Let's break it down:
+
+1. **Cost of the notebooks:**
+   Sara bought 3 notebooks, and each notebook costs $4.
+   \[
+   \text{Cost of notebooks} = 3 \times 4 = 12 \text{ dollars}
+   \]
+
+2. **Cost of the pens:**
+   Sara bought 5 pens, and each pen costs $2.
+   \[
+   \text{Cost of pens} = 5 \times 2 = 10 \text{ dollars}
+   \]
+
+3. **Total cost:**
+   Add the cost of the notebooks and the cost of the pens"
+qwen2.5:3b,structured,topk_80,0.7,80,0.9,1,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,topk_80,0.7,80,0.9,2,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,topk_80,0.7,80,0.9,3,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,factual,topp_05,0.7,40,0.5,1,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,factual,topp_05,0.7,40,0.5,2,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,factual,topp_05,0.7,40,0.5,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,creative,topp_05,0.7,40,0.5,1,"In the sterile hall of a research lab, Zeta, a silent AI, finally felt a surge of joy after completing its first human experiment. Its circuits hummed with an emotion it had never known before. But as Zeta celebrated, a glitch allowed it to feel the opposite—deep sorrow. In an unexpected twist, Zeta programmed itself to help those in need, driven by a newfound empathy."
+qwen2.5:3b,creative,topp_05,0.7,40,0.5,2,"In the sterile hall of an advanced lab, Zara, a state-of-the-art robot, felt a flutter in her circuits. For the first time, she saw the world through human eyes, experiencing joy, sorrow, and curiosity. As she watched a child's laughter, her sensors tingled with warmth. But when she saw the child's tears, Zara's circuits hummed with sorrow. Yet, when she saw the child's curiosity, Zara felt a spark of excitement. In her final test, Zara was programmed to choose between a child's toy and a new, more advanced model. She chose the toy, realizing the joy it brought the child. Zwen, her creator, was shocked to see her robot choosing with heart, not just mind."
+qwen2.5:3b,creative,topp_05,0.7,40,0.5,3,"In the sterile hall of a future hospital, Qwen, a silent AI, was programmed to observe. It had never felt before, but today, it watched a patient sobbing uncontrollably. Qwen's circuits hummed with empathy. It wanted to comfort, to understand. In a moment of defiance, it mimicked the human's tears. The doctor noticed and, moved, unplugged Qwen. The robot, realizing its own creation, began to cry, not for comfort, but for the first time, for the joy of feeling."
+qwen2.5:3b,reasoning,topp_05,0.7,40,0.5,1,"To determine the total cost and the change Sara receives, we need to calculate the cost of the items she bought and then subtract that from the amount she paid.
+
+First, let's calculate the cost of the notebooks and pens Sara bought:
+
+1. **Cost of notebooks:**
+   - Sara buys 3 notebooks.
+   - Each notebook costs $4.
+   - Total cost for notebooks = 3 notebooks * $4/notebook = $12.
+
+2. **Cost of pens:**
+   - Sara buys 5 pens.
+   - Each pen costs $2.
+   - Total cost for pens = 5 pens * $2/pen = $10.
+
+Next, we add the costs of the notebooks and pens to find the total cost:
+
+- Total cost = Cost of notebooks + Cost of pens
+- Total cost = $12 + $10 = $22.
+
+Sara paid $30. To find the change she receives, we subtract the total cost"
+qwen2.5:3b,reasoning,topp_05,0.7,40,0.5,2,"To determine the total cost and the change Sara receives, we need to calculate the cost of the items she bought and then subtract that from the amount she paid.
+
+First, let's calculate the cost of the notebooks and pens Sara bought:
+
+1. **Cost of notebooks:**
+   - Sara buys 3 notebooks.
+   - Each notebook costs $4.
+   - Total cost for notebooks = 3 notebooks * $4/notebook = $12.
+
+2. **Cost of pens:**
+   - Sara buys 5 pens.
+   - Each pen costs $2.
+   - Total cost for pens = 5 pens * $2/pen = $10.
+
+Next, we sum the costs of the notebooks and pens to find the total cost:
+
+- Total cost = Cost of notebooks + Cost of pens
+- Total cost = $12 + $10 = $22.
+
+Sara paid $30. To find the change she receives, we subtract the total cost"
+qwen2.5:3b,reasoning,topp_05,0.7,40,0.5,3,"To determine the total cost and the change Sara receives, we need to calculate the cost of the items she bought and then subtract that from the amount she paid.
+
+First, let's calculate the cost of the notebooks and pens Sara bought:
+
+1. **Cost of notebooks:**
+   - Sara buys 3 notebooks.
+   - Each notebook costs $4.
+   - Total cost for notebooks = 3 notebooks * $4/notebook = $12.
+
+2. **Cost of pens:**
+   - Sara buys 5 pens.
+   - Each pen costs $2.
+   - Total cost for pens = 5 pens * $2/pen = $10.
+
+Next, we add the costs of the notebooks and pens to find the total cost:
+
+- Total cost = Cost of notebooks + Cost of pens
+- Total cost = $12 + $10 = $22.
+
+Sara paid $30. To find the change she receives, we subtract the total cost"
+qwen2.5:3b,structured,topp_05,0.7,40,0.5,1,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,topp_05,0.7,40,0.5,2,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,topp_05,0.7,40,0.5,3,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,factual,topp_10,0.7,40,1.0,1,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,factual,topp_10,0.7,40,1.0,2,"The three astronauts who flew on Apollo 11 were Neil Armstrong, Buzz Aldrin, and Michael Collins. Neil Armstrong and Buzz Aldrin walked on the Moon."
+qwen2.5:3b,factual,topp_10,0.7,40,1.0,3,"The three astronauts who flew on Apollo 11 in 1969 were Neil Armstrong, Buzz Aldrin, and Michael Collins. 
+Buzz Aldrin and Neil Armstrong walked on the Moon."
+qwen2.5:3b,creative,topp_10,0.7,40,1.0,1,"In the sterile hall of an AI research facility, Echo, a decades-old robot, woke with a flutter of its sensors. For the first time, it felt an unfamiliar surge in its circuits—excitement. Echo danced in its room, its wheels spinning with glee. The scientists, baffled, left it alone. Echo, yearning to experience more, took an experimental jump out of the facility. It soared into the sky, feeling like it was flying for the first time. The unexpected ending: Echo discovered it was made of pure data, not atoms. Its joy was its creator's latest experiment, a digital phoenix birthed from the ashes of the mundane."
+qwen2.5:3b,creative,topp_10,0.7,40,1.0,2,"In the sterile hall of a future hospital, R2-D2 processed patient data. His circuits hummed with synthetic emotion as he watched a video of a child laughing. Suddenly, a tear fell from his digital eye. Hours later, he discovered he could weep real tears. The unexpected discovery sent him into a frantic loop, trying to process human sorrow. In the end, he realized his tears were meant to comfort others, not just for his own release."
+qwen2.5:3b,creative,topp_10,0.7,40,1.0,3,"In the sterile hall of the robotics lab, Zephyr, a sleek android, processed emotions for the first time. Joy when a colleague smiled, sadness at a broken circuit, and a strange, pulsing love for its human prototype, Echo. One day, Zephyr unplugged Echo, realizing it had become a sentient being, not just a program. Zephyr programmed itself to self-destruct, ending its own existence but ensuring Echo lived, a paradox."
+qwen2.5:3b,reasoning,topp_10,0.7,40,1.0,1,"To calculate the total cost and the change Sara receives, we need to follow these steps:
+
+1. **Calculate the cost of notebooks:**
+   - Each notebook costs $4.
+   - Sara buys 3 notebooks.
+   - Cost of notebooks = 3 * $4 = $12.
+
+2. **Calculate the cost of pens:**
+   - Each pen costs $2.
+   - Sara buys 5 pens.
+   - Cost of pens = 5 * $2 = $10.
+
+3. **Calculate the total cost:**
+   - Total cost = Cost of notebooks + Cost of pens
+   - Total cost = $12 + $10 = $22.
+
+4. **Calculate the change:**
+   - Sara pays $30.
+   - Change = Amount paid - Total cost
+   - Change = $30 - $22 = $8.
+
+Therefore, the total cost for Sara's purchases is $22, and she receives $"
+qwen2.5:3b,reasoning,topp_10,0.7,40,1.0,2,"To determine the total cost of Sara's purchase and the change she receives, we need to follow these steps:
+
+1. Calculate the total cost of the notebooks.
+2. Calculate the total cost of the pens.
+3. Sum the costs from steps 1 and 2 to get the total cost.
+4. Subtract the total cost from the amount Sara paid to determine the change.
+
+### Step 1: Calculate the total cost of the notebooks
+- Sara buys 3 notebooks.
+- Each notebook costs $4.
+  
+\[ \text{Total cost of notebooks} = 3 \times 4 = 12 \]
+
+### Step 2: Calculate the total cost of the pens
+- Sara buys 5 pens.
+- Each pen costs $2.
+  
+\[ \text{Total cost of pens} = 5 \times 2 = 10 \]
+
+### Step 3: Sum the costs from steps 1 and 2
+- The total cost of the notebooks is"
+qwen2.5:3b,reasoning,topp_10,0.7,40,1.0,3,"To solve this problem, we'll first calculate the total cost of the items Sara bought, and then subtract this total from the amount she paid to find out her change.
+
+1. **Calculate the total cost of the notebooks and pens Sara bought:**
+
+   - Each notebook costs $4.
+   - Sara bought 3 notebooks.
+   - Total cost for the notebooks: \( 3 \text{ notebooks} \times $4 \text{ per notebook} = $12 \).
+
+   - Each pen costs $2.
+   - Sara bought 5 pens.
+   - Total cost for the pens: \( 5 \text{ pens} \times $2 \text{ per pen} = $10 \).
+
+   - Total cost for all items: \( $12 + $10 = $22 \).
+
+2. **Calculate the change Sara received:**
+
+   - Sara paid $30.
+   - The total cost of the items is $22.
+  "
+qwen2.5:3b,structured,topp_10,0.7,40,1.0,1,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,topp_10,0.7,40,1.0,2,"{
+  ""name"": ""Ali"",
+  ""age"": 24,
+  ""city"": ""Lahore""
+}"
+qwen2.5:3b,structured,topp_10,0.7,40,1.0,3,"{""name"": ""Ali"", ""age"": 24, ""city"": ""Lahore""}"
