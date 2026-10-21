@@ -113,10 +113,19 @@ The experiments demonstrated that Temperature, Top-K, and Top-P influence the co
 
 ## Academic Information
 
-**Course:** Agentic AI
+**Course:** Special Topics in AI (Agentic AI)
 
 **Program:** MS Artificial Intelligence
 
 **University:** University of Engineering and Technology (UET), Lahore
 
 **Project:** Decoding Parameter & Sampling Analysis
+
+## Submitted By
+
+| Name | Registration Number |
+|---|---|
+| Mehak | 2026-MS-AI-17 |
+| Mahnoor Sharafat | 2026-MS-AI-28 |
+| Ayesha Tariq | 2026-MS-AI-36 |
+| Bareera Zaheer | 2026-MS-AI-02 |
